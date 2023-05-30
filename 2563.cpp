@@ -24,7 +24,7 @@ using namespace std;
 // 색종이의 수가 많아져 일일이 붙일 수 없지만 흰 도화지는 확인 할 수 있다면 '누적합'을 사용해볼 수 있다.
 
 // Implementation
-// count(begin_iter, end_iter, value) 를 사용하여 값의 개수를 셀 수 있다. O(n)
+// count(begin_iter, end_iter, value) 를 사용하여 값의 개수를 셀 수 있다. O(n^2)
 int32_t main()
 {
 
